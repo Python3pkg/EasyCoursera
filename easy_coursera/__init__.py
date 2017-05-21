@@ -1,1 +1,1 @@
-from EasyCoursera import start
+from .EasyCoursera import start

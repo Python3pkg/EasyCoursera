@@ -12,7 +12,7 @@ def auth_me(email,password):
  
     
     def randomCookie(length):
-        return ''.join(random.choice(string.letters + string.digits) for i in xrange(length))
+        return ''.join(random.choice(string.letters + string.digits) for i in range(length))
      
      
     def make_soup(url):
